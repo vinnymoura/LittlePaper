@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.main-product {
+  height: 10rem;
+  width: 100rem;
+  /* display: flex; */
+  align-items: center;
+  margin: auto;
+}
+
+:root {
+  font-size: 10px;
+}
+
+.header-principal {
+  display: flow-root;
+}
+
+.fundo-header {
+  background-color: #000000;
+  width: 100%;
+  height: 60px;
+  margin: -0.8rem;
+  position: fixed;
+}
+
+.header-1 {
+  margin: 0 auto;
+  width: 134.5rem;
+  height: 6rem;
+  position: relative;
+}
+
+.frase {
+  display: grid;
+  height: 9.6rem;
+
+  width: 100%;
+  margin-top: 5rem;
+  margin-left: -0.8rem;
+
+  text-align: center;
+  align-items: center;
+
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.catalog {
+  display: flex;
+  width: 100rem;
+}
+
+.catalog-header {
+  width: 100rem;
+  text-align: center;
+  margin-top: 13rem;
+  position: fixed;
+  background: white;
+}
+
+.catalog-name {
+  display: inline-block;
+  width: 40%;
+  font: 300 3rem/1 "Nunito", Sans-Serif;
+  color: #000000;
+  text-align: left;
+  padding-left: 2.6rem;
+}
+
+.system-filter {
+  display: inline-block;
+  width: 43.2%;
+  text-align: end;
+  margin-right: 1.8rem;
+}
+
+.filtro {
+  font: 800 1.4rem/1 "Nunito", sans-serig;
+}
+
+#select_ordem {
+  background: #000000;
+  color: #ed9121;
+}

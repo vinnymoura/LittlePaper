@@ -1,0 +1,69 @@
+.menu-horizontal {
+  position: relative;
+  text-align: center;
+  height: 22rem;
+}
+
+.menu {
+  list-style: none;
+  float: left;
+  width: 100rem;
+  display: flex;
+  align-items: center;
+  height: 12rem;
+  position: fixed;
+  background: white;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  text-align: justify;
+  height: 3rem;
+}
+
+.menu li a {
+  text-align: center;
+  text-decoration: none;
+  color: #ed9121;
+  padding: 0rem 4.8rem;
+  display: inline-block;
+  font: 300 2.4rem/1 "Nunito", sans-serif;
+}
+
+.menu li:hover {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 3px 4px 8px rgba(254, 154, 0, 0.7);
+  border-radius: 20rem;
+}
+
+.menu li ul {
+  position: absolute;
+  margin-top: 0.4rem;
+  margin-left: 0;
+  display: none;
+  padding: 0;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+  display: flex;
+  align-items: center;
+}
+
+.menu-fixo {
+  position: fixed;
+  margin-left: 10rem;
+  width: 112.5rem;
+}
+
+#nivel-2 a {
+  font: 300 1.2rem/2 "Nunito", sans-serif;
+  width: 12rem;
+  text-align: left;
+}
