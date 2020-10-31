@@ -7,7 +7,6 @@ body {
 .main-product {
   height: 10rem;
   width: 100rem;
-  /* display: flex; */
   align-items: center;
   margin: auto;
 }
@@ -57,9 +56,6 @@ body {
 .catalog-header {
   width: 100rem;
   text-align: center;
-  margin-top: 13rem;
-  position: fixed;
-  background: white;
 }
 
 .catalog-name {

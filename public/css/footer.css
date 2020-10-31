@@ -1,0 +1,76 @@
+.footer {
+  display: flex;
+  width: 100%;
+}
+
+#cor-fundo {
+  background: #000000;
+  width: 100%;
+
+  margin-top: 52.2rem;
+  position: absolute;
+
+  text-align: center;
+  margin-left: -0.8rem;
+  margin-bottom: -0.8rem;
+}
+
+.container-footer {
+  width: 100rem;
+  height: 22.2rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#contato {
+  width: 30%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#contato span {
+  font: 300 1.6rem/1.5 "Nunito", sans-serif;
+  color: #ed9121;
+  display: grid;
+}
+
+#contato a {
+  font: 300 1.6rem/2 "Nunito", sans-serif;
+  color: #ed9121;
+  text-decoration: none;
+}
+
+#acompanhe {
+  width: 35%;
+  display: block;
+  margin-right: 5rem;
+  margin-left: 4rem;
+  text-align: center;
+}
+
+#nossa-historia {
+  width: 20%;
+  display: block;
+  margin-bottom: 8rem;
+}
+
+#nossa-historia a {
+  font: 300 1.4rem/1 "Nunito", sans-serif;
+  color: #ed9121;
+  text-decoration: none;
+}
+
+.footer h2 {
+  font: 300 1.8rem/1.5 "Nunito", sans-serif;
+  color: #ed9121;
+  margin-bottom: 2rem;
+}
+
+.footer h1 {
+  font: 300 1.8rem/1.5 "Nunito", sans-serif;
+  color: #ed9121;
+  box-shadow: 0.3rem 0.4rem 1.2rem rgba(254, 154, 0, 0.7);
+  border-radius: 2rem;
+  margin-bottom: 6rem;
+}
