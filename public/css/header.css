@@ -36,9 +36,8 @@ body {
 
 .frase {
   display: grid;
-  height: 9.6rem;
+  height: 8rem;
 
-  width: 100%;
   margin-top: 5rem;
   margin-left: -0.8rem;
 
@@ -46,39 +45,4 @@ body {
   align-items: center;
 
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
-}
-
-.catalog {
-  display: flex;
-  width: 100rem;
-}
-
-.catalog-header {
-  width: 100rem;
-  text-align: center;
-}
-
-.catalog-name {
-  display: inline-block;
-  width: 40%;
-  font: 300 3rem/1 "Nunito", Sans-Serif;
-  color: #000000;
-  text-align: left;
-  padding-left: 2.6rem;
-}
-
-.system-filter {
-  display: inline-block;
-  width: 43.2%;
-  text-align: end;
-  margin-right: 1.8rem;
-}
-
-.filtro {
-  font: 800 1.4rem/1 "Nunito", sans-serig;
-}
-
-#select_ordem {
-  background: #000000;
-  color: #ed9121;
 }

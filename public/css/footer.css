@@ -1,13 +1,14 @@
 .footer {
   display: flex;
   width: 100%;
+  margin-top: 10rem;
 }
 
 #cor-fundo {
   background: #000000;
   width: 100%;
 
-  margin-top: 52.2rem;
+  margin-top: 87.2rem;
   position: absolute;
 
   text-align: center;

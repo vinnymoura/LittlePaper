@@ -1,5 +1,6 @@
 .container-product {
   display: inline-flex;
+  width: 100rem;
 }
 
 .listagem-produto {
@@ -16,8 +17,8 @@
 }
 
 .imagem-produto img {
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
 }
 
 .info-produto,
@@ -48,8 +49,7 @@
 .listagem-produto ul li {
   list-style: none;
   padding: 1rem 0rem;
-  margin: 1rem;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .botao-compra {
@@ -74,4 +74,40 @@
 
 .produto {
   display: inline-block;
+}
+
+.produtos-horizontais {
+  padding: 0;
+}
+
+.catalog {
+  display: flex;
+  width: 100rem;
+}
+
+.catalog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100rem;
+}
+
+.categorias h4 {
+  font: 400 3rem/1 "Nunito", sans-serif;
+  color: #000000;
+  width: 40%;
+}
+
+.filtro {
+  font: 800 1.4rem/1 "Nunito", sans-serif;
+}
+
+.system-filter {
+  width: 60%;
+  text-align: end;
+}
+
+#select_ordem {
+  background: #000000;
+  color: #ed9121;
 }
